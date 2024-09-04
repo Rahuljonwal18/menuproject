@@ -169,7 +169,7 @@
                             <a class="nav-link" href="http://127.0.0.1:5000/">My Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/static/images/Resume-Sachin-Choudhary.pdf">Resume</a>
+                            <a class="nav-link" href="Resume pdf">Resume</a>
                         </li>
                     </ul> -->
                 </div>
@@ -285,7 +285,7 @@
             
 
             <!-- -------------------------------accessory set-------------------------  -->
-            <!-- <div id="sunglassSet" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left;">
+             <div id="sunglassSet" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left;">
                 <div class="card custom-card" style="width: 25rem;">
                     <a href="#" data-toggle="modal" data-target="#SunglassModal">
                         <img src="/static/images/sunglass.png" class="card-img-top" alt="Sunglass and Hat Set">
@@ -306,7 +306,7 @@
                         </select>
                     </div>
                 </div>
-            </div> -->
+            </div> 
             
             <div id="WhatsappMsg" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left;">
                 <div class="card custom-card" style="width: 25rem;">
@@ -343,66 +343,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div id="holiProject" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left; ">
-                <div class="card custom-card" style="width: 25rem;">
-
-                <img src="/static/images/holi.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Holi Project</h5>
-                    <p class="card-text">I created a fun and colorful 'Happy Holi' project using HTML, CSS, and JavaScript. It brings the excitement of the festival to life with vibrant animations and interactive elements.
-                    </p>
-                    <a href="https://sachinlunayach.github.io/HoliProject/" class="btn btn-primary">Run Demo</a>
-                </div>
-            </div>
-            </div>
-    
-            <div id="NewYearProject" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left; ">
-                <div class="card custom-card" style="width: 25rem;">
-
-                <img src="/static/images/newyear.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">New Year Project</h5>
-                    <p class="card-text">I created a cheerful 'Happy New Year 2024' project using HTML, CSS, and JavaScript. It features sparkling animations and interactive elements to welcome the new year with joy and excitement.</p>
-                    <a href="https://sachinlunayach.github.io/HN24/" class="btn btn-primary">Run Demo</a>
-                </div>
-            </div>
-            </div>
-            
-            <div id="CubeAnimation" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left; ">
-                <div class="card custom-card" style="width: 25rem;">
-
-                <img src="/static/images/cube.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Cube Animation</h5>
-                    <p class="card-text">I designed a 'Colorful Cube Animation' using HTML, CSS, and JavaScript. The project showcases a dynamic 3D cube with vibrant colors and smooth animations, creating an engaging visual experience.</p>
-                    <a href="https://sachinlunayach.github.io/cubeanimation1/" class="btn btn-primary">Run Demo</a>
-                </div>
-            </div>
-            </div>
-            <div id="Calculator" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left; ">
-                <div class="card custom-card" style="width: 25rem;">
-
-                <img src="/static/images/calculator.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Calculator</h5>
-                    <p class="card-text">I created a simple and efficient calculator using HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean and user-friendly interface.</p>
-                    <a href="https://sachinlunayach.github.io/calcultor/" class="btn btn-primary">Run Demo</a>
-                </div>
-            </div>
-            </div>
-            <div id="TicTacToe" class="col-lg-4 col-md-4 col-sm-6 mb-4 section-content" style="float: left; ">
-                <div class="card custom-card" style="width: 25rem;">
-
-                <img src="/static/images/tictactoe.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Tic Tac Toe</h5>
-                    <p class="card-text">I created a Tic Tac Toe game by using HTML, CSS, and JavaScript. It is simple game and user-friendly.</p>
-                    <a href=" https://sachinlunayach.github.io/tic-toe/" class="btn btn-primary">Run Demo</a>
-                </div>
-            </div>
-            </div> -->
            
-
         </div>
     </div>
     <!-- The Modal -->
@@ -1190,20 +1131,7 @@ $(document).ready(function() {
 });
 
 
-// $(document).ready(function() {
-//             $('#startDetection').click(function() {
-//                 $.ajax({
-//                     url: '/start_detection',
-//                     type: 'POST',
-//                     success: function(response) {
-//                         $('#statusMessage').html(`<div class="alert alert-success">${response.message}</div>`);
-//                     },
-//                     error: function(error) {
-//                         $('#statusMessage').html(`<div class="alert alert-danger">An error occurred: ${error.responseJSON.message}</div>`);
-//                     }
-//                 });
-//             });
-//         });
+
 
 $('#startDetectionfinger').click(function() {
             $.post('/start_detection_finger', function(data) {
